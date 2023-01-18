@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+.login {
+  width : 100%;
+  min-height : 88vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.textarea{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align:center;
+}
+input {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid white;
+  margin: 10px 0;
+}
+small {
+  color: red;
+}
+button {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid white;
+  margin: 10px 0;
+  background-color: black;
+  color: white;
+}
